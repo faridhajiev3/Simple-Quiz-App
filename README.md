@@ -1,6 +1,6 @@
 ## 📄 Layihə Haqqında
 
-Bu sadə və funksional quiz tətbiqi **React** ilə hazırlanmışdır. Layihədə **useContext hook**-u istifadə olunaraq komponentlər arasında vəziyyət (state) paylaşımı təmin edilmişdir. Kod strukturu **təmiz və modullu** şəkildə yazılmışdır.
+Bu sadə və funksional quiz tətbiqi **React** ilə hazırlanmışdır. Layihədə **useContext hook**-u istifadə olunaraq komponentlər arasında state paylaşımı hazirlanmişdır.
 
 Suallar **mocl.api** (fake API) dinamik şəkildə alınır. İstifadəçiyə düzgün və ya yanlış cavabın məlumatı isə yalnız **sual tamamlandıqdan sonra** təqdim olunur.
 
