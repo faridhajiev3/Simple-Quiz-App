@@ -1,0 +1,93 @@
+.container {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 30px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    font-family: "Onest", sans-serif;
+}
+
+.container h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #0D6EFD;
+}
+
+.container h2 {
+    font-size: 22px;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+
+
+.option {
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    border: 2px solid #e0e0e0;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color: #fafafa;
+}
+
+.option:hover {
+    background-color: #f0f8ff;
+    border-color: #0D6EFD;
+}
+
+.option.selected {
+    background-color: #c0f8cb;
+    border-color: #44f553;
+    color: #000;
+}
+
+.next-btn,
+.reset-btn {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.next-btn {
+    background-color: #0D6EFD;
+    color: white;
+}
+
+.reset-btn {
+    background-color: #dc3545;
+    color: white;
+}
+
+
+.index {
+    text-align: center;
+    margin-top: 15px;
+    color: #555;
+    font-size: 16px;
+}
+
+.review-list {
+    margin-top: 20px;
+}
+
+.review-item {
+    padding: 15px 20px;
+    border-left: 5px solid #0D6EFD;
+    margin-bottom: 20px;
+    background-color: #f5f7fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.review-item p {
+    margin: 15px 0;
+    font-size: 16px;
+}
